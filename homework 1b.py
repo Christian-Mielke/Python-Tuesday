@@ -12,4 +12,4 @@ while number != guess:
     if number != guess:
         print(f'Guter Tipp! Aber meine Zahl ist {"größer" if number > guess else "kleiner"}...')
 
-print(f'Sehr gut! Meine Zahl war {number}. Du hast {len(attempts)} Versuch(e) gebraucht: { attempts }')
+print(f'Sehr gut! Meine Zahl war {number}. Du hast {len(attempts)} Versuch(e) gebraucht: {attempts}')
