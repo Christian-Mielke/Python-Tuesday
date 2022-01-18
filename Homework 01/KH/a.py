@@ -6,7 +6,7 @@ guess: int = -1
 
 while number != guess:
     guess = int(input('Rate meine Zahl!'))
-    
+
     if number != guess:
         print(f'Guter Tipp! Aber meine Zahl ist {"größer" if number > guess else "kleiner"}...')
 
