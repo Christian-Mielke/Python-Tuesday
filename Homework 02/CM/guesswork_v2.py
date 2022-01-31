@@ -44,7 +44,8 @@ class Guestimation:
         self.start: int = start
         self.stop: int = stop
         options: list = ['P', 'H']
-        while True:
+    while self.gametype not in options:
+            self.gametype = input('Please input P for PC guestimation or H for Human guestimation!')
             print('Please input P for PC guestimation or H for Human guestimation!')
             self.gametype = input()
             if self.gametype in options:
